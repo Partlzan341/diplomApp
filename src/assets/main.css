@@ -1,0 +1,30 @@
+@import url(https://necolas.github.io/normalize.css/8.0.1/normalize.css);
+
+body {
+    background-image: url(backgroundpic.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Запретить горизонтальный скроллинг */
+    overflow-y: scroll; /* Всегда показывать вертикальную полосу прокрутки */
+        
+}
+
+/* Медиа-запрос для планшетов и мобильных устройств */
+@media (max-width: 768px) {
+    body {
+        font-size: 14px; /* Уменьшаем размер шрифта для маленьких экранов */
+    }
+}
+
+/* Медиа-запрос для мобильных устройств */
+@media (max-width: 480px) {
+    body {
+        font-size: 12px; /* Уменьшаем размер шрифта еще больше для очень маленьких экранов */
+    }
+}
